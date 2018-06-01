@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B4D5</color>
+    <color name="colorPrimaryDark">#0084a4</color>
+    <color name="colorPrimaryLight">#61e6ff</color>
+
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+    <color name="StatusBarColor">#000000</color>
+    <color name="NavBarColor">#212121</color>
+    <color name="NavBarTextColor">#FFFFFF</color>
+    <color name="NavBarAltColor">#523C5D</color>
+
+    <color name="map_color">#80523C5D</color>
+    <color name="map_stroke_color">#352f38</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+
+    <color name="meeting_map_fill_color">#80f15524</color>
+    <color name="meeting_map_stroke_color">#80e20d0d</color>
+
+    <!--Shades of Black-->
+    <color name="black_25">#252525</color>
+    <color name="black_28">#282828</color>
+    <color name="black_custom">#231f20</color>
+    <color name="black_84">#848484</color>
+    <color name="black">#000000</color>
+    <color name="black_cc">#cccccc</color>
+    <color name="black_5c">#5c5c5c</color>
+    <color name="black80">#CC000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black30">#4D000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black10">#1A000000</color>
+    <color name="black_f1">#F1F1F1</color>
+    <color name="black_3c">#3C3C3C</color>
+    <color name="black_d6">#D6D4C5</color>
+    <color name="black5f">#5F5B5C</color>
+    <color name="greyish_brown_72">#B33f3f3f</color>
+    <color name="black_79">#CC121212</color>
+    <color name="black37">#373737</color>
+    <color name="black06">#060606</color>
+    <color name="black_31">#313131</color>
+    <color name="balck_a5">#a5a5a5</color>
+    <color name="grey_60">#606060</color>
+
+
+
+    <!--Shades of Purple-->
+    <color name="purple_52">#523C5D</color>
+    <color name="dirty_purple_9">#1A513C5D</color>
+    <color name="dirty_purple_77">#C4513C5D</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+    <color name="greyBg">#F0EEE1</color>
+    <color name="greyBgLight">#F9F7ED</color>
+    <color name="grey_f6">#F6F6F6</color>
+
+    <color name="greenPrimary">#5CDC8D</color>
+    <color name="time_slot_color">#4FFF4D</color>
+    <color name="tealPrimary">#87DCE2</color>
+    <color name="orange_primary">#F55416</color>
+    <color name="orange_primary_80">#CCF55416</color>
+    <color name="turquoise">#0BAEAF</color>
+    <color name="turquoise_80">#CC0BAEAF</color>
+
+    <color name="blueTitle">#62B2DE</color>
+
+    <!-- Shades of Grey -->
+    <color name="grey1">#596475</color>
+    <color name="grey2">#3D3D3D</color>
+    <color name="grey_ccc">#CCCCCC</color>
+    <color name="pale_grey">#EDEBEE</color>
+    <color name="warm_grey">#979797</color>
+    <color name="grey_d4">#d4d4d4</color>
+    <color name="light_grey">#f6f5f1</color>
+
+
+    <!-- Onboarding colors -->
+    <color name="black_3b">#3B3B3B</color>
+    <color name="black_3b_o_65">#A63B3B3B</color>
+    <color name="black_3b_o_50">#803B3B3B</color>
+    <color name="black_89">#898989</color>
+    <color name="black_b7">#B7B7B7</color>
+
+    <color name="greyish_brown">#4a4a4a</color>
+    <color name="orange_red">#fe3824</color>
+
+    <color name="medium_pink78">#C7ec545c</color>
+    <color name="light_burgundy">#a02a30</color>
+
+    <color name="dirty_purple_o_95">#F2513c5d</color>
+    <color name="carmine_o_64">#A39f031b</color>
+    <color name="watermelon_o_92">#EBf4505f</color>
+
+    <!--broker layout colors-->
+
+    <color name="unknown">#484848</color>
+    <color name="landing_page_color">#f55416</color>
+    <color name="error">#e70000</color>
+    <color name="light_black">#272727</color>
+    <color name="broker_pages_color">#eeeeee</color>
+
+    <color name="space_city_color">#8d8d8d</color>
+    <color name="profile_text_colors">#eaecf0</color>
+
+    <color name="dirty_purple">#513c5d</color>
+
+    <color name="snack_bar_color">#d9ffb8</color>
+    <color name="filter_color">#f15524</color>
+</resources>
