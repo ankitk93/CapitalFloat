@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_checkbox"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_category"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="The Verge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<!--
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_entertainment"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_entertainment"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_entertainment"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_general"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_general"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_general"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="General"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_health"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_health"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_health"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_science"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_science"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_science"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_sports"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_sports"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_sports"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_technology"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_technology"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_technology"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Technology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_checkbox_business"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:id="@+id/cb_business"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_business"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"
+        tools:text="Business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+</LinearLayout>-->
